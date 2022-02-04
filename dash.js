@@ -12,5 +12,5 @@ function sendToServer(state) {
     }
 
 function mudar() {
-   document.getElementById(luz).src='https://i.postimg.cc/bdXMmzMX/Lon.png'
+   document.getElementById("l1").src='https://i.postimg.cc/bdXMmzMX/Lon.png'
 }
