@@ -14,3 +14,7 @@ function sendToServer(state) {
 function mudar() {
    document.getElementById("l1").src="Lon.png"
 }
+
+function Desligar() {
+   document.getElementById("l1").src="Loff.png"
+}
