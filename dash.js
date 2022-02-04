@@ -1,4 +1,6 @@
-function sendToServer(state) {
+var x = 10
+
+function sendToServer(state) { 
     var KEY = "Q4YBHYZSCCO9Q2XW";
     //criar um objeto capaz de enviar dados via requisição HTTP GET
     const http = new XMLHttpRequest();
@@ -13,8 +15,12 @@ function sendToServer(state) {
 
 function mudar() {
    document.getElementById("l1").src="Lon.png"
+    var x = 10000
+    sendToServer(x)
 }
 
 function desligar() {
    document.getElementById("l1").src="Loff.png"
+    var x = 10
+    sendToServer(x)
 }
