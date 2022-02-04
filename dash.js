@@ -15,6 +15,6 @@ function mudar() {
    document.getElementById("l1").src="Lon.png"
 }
 
-function Desligar() {
+function desligar() {
    document.getElementById("l1").src="Loff.png"
 }
