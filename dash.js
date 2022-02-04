@@ -10,3 +10,6 @@ function sendToServer(state) {
     http.onload = console.log(http.responseText+" "+state)
    
     }
+
+function mudar() {
+   document.getElementById(luz).src=
